@@ -1,0 +1,110 @@
+/* paso 1 */
+header {
+  background-image: url(../img/bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*paso 2*/
+  font-family: open sans;
+  text-shadow: 0px 3px 6px black;
+  text-align: right;
+  color: white;
+}
+/*paso 3*/
+header h1 {
+  font-size: 60px;
+}
+/*paso 4*/
+header h3 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+/*ejercicio guiado codo a codo*/
+/*paso 1*/
+#proxima-charla {
+  background: #a4452c;
+  padding: 100px;
+  color: white;
+}
+
+#proxima-charla .wrapper {
+  width: 800px;
+  margin: auto;
+}
+/*paso 2*/
+.wrapper img {
+  width: 25%;
+}
+.wrapper .texto {
+  width: 70%;
+  margin-left: 4%;
+}
+/*paso 3*/
+.wrapper img,
+.texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*DIA 5*/
+
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+}
+
+/*crear clase*/
+
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+
+/*crear clase para los enlaces superiores*/
+
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+}
+
+.hero.section {
+  text-align: right;
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.icono {
+  width: 2rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background: #000f08;
+  color: #ffffff;
+  padding: 20px;
+}
+
+i {
+  font-size: 30px;
+}
+
+#Eventos-Anteriores {
+  text-align: center;
+}
